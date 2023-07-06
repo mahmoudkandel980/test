@@ -48,7 +48,7 @@ const SpecificProduct = () => {
     return (
         <div className='grid lg:grid-cols-2 justify-start items-center gap-3'>
             <div className='flex flex-col lg:flex-row lg:justify-center items-center sm:gap-5 gap-2'>
-                <div className='flex lg:flex-col gap-1 sm:gap-5 content-start order-1'>
+                <div className='flex lg:flex-col gap-3 sm:gap-5 content-start order-1'>
                     {productImages.map((productImage) => (
                         <img
                             onClick={changeCurrentProductImageHandler.bind(
